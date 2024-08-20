@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33717.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.MasterChef", "Api.MasterChef\Api.MasterChef.csproj", "{A166F849-DE49-4C43-A448-72E757B1C0C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Front", "Front", "{D292C90B-260D-44CB-9F80-4FC62BD33BAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{66D09BDD-1E14-413D-8ABE-32DCFD3F9E29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.MasterChef", "Web.MasterChef\Web.MasterChef.csproj", "{E67518BA-5E10-45ED-8A09-75D5647328F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A166F849-DE49-4C43-A448-72E757B1C0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A166F849-DE49-4C43-A448-72E757B1C0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A166F849-DE49-4C43-A448-72E757B1C0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A166F849-DE49-4C43-A448-72E757B1C0C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67518BA-5E10-45ED-8A09-75D5647328F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67518BA-5E10-45ED-8A09-75D5647328F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67518BA-5E10-45ED-8A09-75D5647328F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67518BA-5E10-45ED-8A09-75D5647328F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A166F849-DE49-4C43-A448-72E757B1C0C4} = {66D09BDD-1E14-413D-8ABE-32DCFD3F9E29}
+		{E67518BA-5E10-45ED-8A09-75D5647328F5} = {D292C90B-260D-44CB-9F80-4FC62BD33BAE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFBAEB9F-248F-4DE1-A462-F80BE8BE1808}
+	EndGlobalSection
+EndGlobal
